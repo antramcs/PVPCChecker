@@ -22,7 +22,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
     def __init__(self):
         super(GlobalPlugin, self).__init__()
 
-    @script(gesture="kb:NVDA+shift+p", description="Permite consultar el precio de la energía eléctrica en España a día de hoy.", category="PVPCChecker")
+    @script(gesture=None, description="Permite consultar el precio de la energía eléctrica en España a día de hoy.", category="PVPCChecker")
     def script_check_energy_price(self, gesture):
         self.consultarPrecioEnergia()
 
