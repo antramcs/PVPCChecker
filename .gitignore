@@ -1,5 +1,5 @@
 addon/doc/*.css
-addon/doc/en/
+addon/doc/es/
 *_docHandler.py
 *.html
 *.ini
@@ -8,3 +8,4 @@ addon/doc/en/
 *.py[co]
 *.nvda-addon
 .sconsign.dblite
+__pycache__/
